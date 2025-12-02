@@ -2,7 +2,7 @@
 import processing.serial.*;
 import java.util.ArrayList; 
 
-String apiKey = "AIzaSyAdzxla4yOaH9BtO9P0Z033rqgLaoRDzz8"; 
+String apiKey = "You_API_Key"; 
 
 int serialPortIndex = 0; 
 
@@ -310,3 +310,4 @@ void drawCylinder(float r, float h, int s) { float a=TWO_PI/s; beginShape(QUAD_S
 void drawGridXY(float s, float st, int c) { stroke(c); strokeWeight(1); for(float i=0; i<=s; i+=st) { line(i,0,0, i,-s,0); line(0,-i,0, s,-i,0); } }
 void drawGridXZ(float s, float st, int c) { stroke(c); strokeWeight(1); for(float i=0; i<=s; i+=st) { line(i,0,0, i,0,s); line(0,0,i, s,0,i); } }
 void drawGridYZ(float s, float st, int c) { stroke(c); strokeWeight(1); for(float i=0; i<=s; i+=st) { line(0,-i,0, 0,-i,s); line(0,0,i, 0,-s,i); } }
+
